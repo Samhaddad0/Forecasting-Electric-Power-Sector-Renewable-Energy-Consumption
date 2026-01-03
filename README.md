@@ -58,6 +58,9 @@ Forecasting Electric Power Sector Renewable Energy Consumption
 
   -Forecasting Models: Holt-Winters, ARIMA, SARIMA
 
+📈 Visual Preview:
+
+
 🔄 Methodology & Workflow:
 
   -Data Preprocessing:
@@ -131,6 +134,16 @@ These results align with EIA expectations of continued growth in renewable elect
   -Reductions in clean energy incentives may slow growth relative to historical trends
 
   -Incorporating exogenous variables (policy, weather, fuel prices) could improve forecast accuracy
+
+🎯 Limitations & Future Work:
+
+  -Add exogenous variables (weather, fuel prices, policy indicators)
+
+  -Explore advanced models (Prophet, LSTM, XGBoost for time series)
+
+  -Improve accuracy toward the sub-5% MAPE target
+
+  -Produce forecasts by individual renewable sources (solar, wind, hydro)
 
 
 
