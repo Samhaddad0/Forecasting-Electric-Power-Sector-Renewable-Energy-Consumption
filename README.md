@@ -100,19 +100,19 @@ Forecasting Electric Power Sector Renewable Energy Consumption
 
 📊 Key Findings:
 
-  -SARIMA projects a strong upward trajectory with clear seasonal peaks, closely following historical growth. 
+    -SARIMA projects a strong upward trajectory with clear seasonal peaks, closely following historical growth. 
   
-  -Holt-Winters forecasts a moderate rise with smoother seasonal cycles, suggesting a conservative expansion. 
+    -Holt-Winters forecasts a moderate rise with smoother seasonal cycles, suggesting a conservative expansion. 
   
-  -ARIMA inaccurately shows an almost flatline forecast, failing to reflect historical growth or seasonality, which emphasizes its limitations for this task. 
+    -ARIMA inaccurately shows an almost flatline forecast, failing to reflect historical growth or seasonality, which emphasizes its limitations for this task. 
 
 🎯 Forecast Results (2025–2028):
 
-  -SARIMA: Strong growth with pronounced seasonal patterns
+    -SARIMA: Strong growth with pronounced seasonal patterns
 
-  -Holt-Winters: Moderate growth with smoother seasonal cycles
+    -Holt-Winters: Moderate growth with smoother seasonal cycles
 
-  -ARIMA: Flat projections inconsistent with historical behavior
+    -ARIMA: Flat projections inconsistent with historical behavior
 
 These results align with EIA expectations of continued growth in renewable electricity generation, particularly driven by solar expansion.
 
