@@ -2,15 +2,15 @@ Forecasting Electric Power Sector Renewable Energy Consumption
 
 📁 Project Overview:
 
-This project forecasts Total Renewable Energy Consumption in the U.S. Electric Power sector using monthly data from 1973–2024. 
+-This project forecasts Total Renewable Energy Consumption in the U.S. Electric Power sector using monthly data from 1973–2024. 
 The objective is to evaluate how well different time series models capture long-term growth, seasonality, and structural changes in renewable 
 energy usage, with a focus on forecasts for 2025–2028.
 
-The analysis compares Holt-Winters (Exponential Smoothing), ARIMA, and SARIMA models to identify the most accurate and reliable forecasting approach.
+-The analysis compares Holt-Winters (Exponential Smoothing), ARIMA, and SARIMA models to identify the most accurate and reliable forecasting approach.
 
 🎯 Problem Statement:
 
-Renewable energy consumption has increased significantly over time due to policy decisions, technological advances, and environmental factors. Accurate forecasting is essential for:
+-Renewable energy consumption has increased significantly over time due to policy decisions, technological advances, and environmental factors. Accurate forecasting is essential for:
 
   -Grid reliability and capacity planning
 
@@ -49,3 +49,39 @@ Renewable energy consumption has increased significantly over time due to policy
     -Energy Sources: Hydroelectric, Wind, Solar, Geothermal, Biomass, Biofuels, and others
 
     -Target Variable: Total Renewable Energy Consumption (trillion BTUs)
+
+🔄 Methodology & Workflow:
+
+  -Data Preprocessing:
+
+    -Filtered data to Electric Power sector and Total Renewable Energy
+
+    -Confirmed no missing values
+
+    -Retained outliers to preserve effects of policy changes and extreme events
+
+    -Conducted Augmented Dickey-Fuller (ADF) test for stationarity
+
+    -Applied Box-Cox transformation (λ = −0.418) for ARIMA/SARIMA variance stabilization
+
+  -Data Splitting:
+
+    -Single Train/Test Split
+
+      Train: Jan 1973 – Dec 2012 (80%)
+
+      Test: Jan 2013 – Dec 2024 (20%)
+
+  -4-Fold Time Series Cross-Validation
+
+      Expanding window with rolling test periods
+
+  -Models Implemented:
+
+      -Holt-Winters: Captures level, trend, and seasonality
+
+      -ARIMA: Models trend via differencing but does not capture seasonality
+      
+      -SARIMA: Extends ARIMA with seasonal components (12-month seasonality)
+
+SARIMA: Extends ARIMA with seasonal components (12-month seasonality)
