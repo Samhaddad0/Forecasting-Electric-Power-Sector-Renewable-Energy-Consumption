@@ -50,6 +50,14 @@ Forecasting Electric Power Sector Renewable Energy Consumption
 
     -Target Variable: Total Renewable Energy Consumption (trillion BTUs)
 
+🧰 Tools & Technologies:
+
+    -Python (pandas, numpy, statsmodels, pmdarima)
+
+    -Time Series Analysis (ADF, ACF, PACF)
+
+    -Forecasting Models: Holt-Winters, ARIMA, SARIMA
+
 🔄 Methodology & Workflow:
 
   -Data Preprocessing:
@@ -123,5 +131,7 @@ These results align with EIA expectations of continued growth in renewable elect
     -Reductions in clean energy incentives may slow growth relative to historical trends
 
     -Incorporating exogenous variables (policy, weather, fuel prices) could improve forecast accuracy
+
+
 
 
