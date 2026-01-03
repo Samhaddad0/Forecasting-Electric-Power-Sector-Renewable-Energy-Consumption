@@ -83,3 +83,18 @@ Forecasting Electric Power Sector Renewable Energy Consumption
     -ARIMA: Models trend via differencing but does not capture seasonality
       
     -SARIMA: Extends ARIMA with seasonal components (12-month seasonality)
+
+📊 Model Evaluation
+
+  -Evaluation Metrics:
+
+    -Mean Absolute Percentage Error (MAPE)
+
+    -Root Mean Squared Error (RMSE)
+
+| Model        | MAPE (%)  | RMSE      |
+| ------------ | --------- | --------- |
+| Holt-Winters | 19.58%    | 54.78     |
+| ARIMA        | 26.32%    | 73.25     |
+| SARIMA       | **6.60%** | **18.92** |
+
