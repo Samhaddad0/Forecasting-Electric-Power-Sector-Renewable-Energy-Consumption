@@ -52,11 +52,11 @@ Forecasting Electric Power Sector Renewable Energy Consumption
 
 🧰 Tools & Technologies:
 
-    -Python (pandas, numpy, statsmodels, pmdarima)
+  -Python (pandas, numpy, statsmodels, pmdarima)
 
-    -Time Series Analysis (ADF, ACF, PACF)
+  -Time Series Analysis (ADF, ACF, PACF)
 
-    -Forecasting Models: Holt-Winters, ARIMA, SARIMA
+  -Forecasting Models: Holt-Winters, ARIMA, SARIMA
 
 🔄 Methodology & Workflow:
 
