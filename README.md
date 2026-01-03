@@ -61,6 +61,7 @@ Forecasting Electric Power Sector Renewable Energy Consumption
 📈 Visual Preview:
 
 <img width="482" height="232" alt="image" src="https://github.com/user-attachments/assets/bc463791-757b-4278-9f78-bf25c0a41b49" />
+
 <img width="468" height="226" alt="image" src="https://github.com/user-attachments/assets/cd729840-eb1d-4c46-979c-fe0cfe2d14d9" />
 
 
