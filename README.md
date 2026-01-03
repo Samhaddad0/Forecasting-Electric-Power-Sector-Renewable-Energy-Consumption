@@ -92,9 +92,9 @@ Forecasting Electric Power Sector Renewable Energy Consumption
 
     -Root Mean Squared Error (RMSE)
 
-| Model        | MAPE (%)  | RMSE      |
-| ------------ | --------- | --------- |
-| Holt-Winters | 19.58%    | 54.78     |
-| ARIMA        | 26.32%    | 73.25     |
-| SARIMA       | **6.60%** | **18.92** |
+  | Model        | MAPE (%)  | RMSE      |
+  | ------------ | --------- | --------- |
+  | Holt-Winters | 19.58%    | 54.78     |
+  | ARIMA        | 26.32%    | 73.25     |
+  | SARIMA       | **6.60%** | **18.92** |
 
