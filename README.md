@@ -20,68 +20,66 @@ energy usage, with a focus on forecasts for 2025–2028.
 
 🎯 Objectives:
 
-  -Build a forecasting model with a target MAPE < 5%
+-Build a forecasting model with a target MAPE < 5%
 
-  -Identify long-term trends and seasonal patterns in renewable energy consumption
+-Identify long-term trends and seasonal patterns in renewable energy consumption
 
-  -Compare Holt-Winters, ARIMA, and SARIMA model performance
+-Compare Holt-Winters, ARIMA, and SARIMA model performance
 
-  -Generate forecasts for the 2025–2028 period and assess policy implications
+-Generate forecasts for the 2025–2028 period and assess policy implications
 
 📊 Dataset Description:
 
-  -Source: Kaggle – U.S. Renewable Energy Consumption
+-Source: Kaggle – U.S. Renewable Energy Consumption
 
-  -Time Range: January 1973 – December 2024
+-Time Range: January 1973 – December 2024
 
-  -Granularity: Monthly observations by energy sector
+-Granularity: Monthly observations by energy sector
   
-  -Dataset Size:
+-Dataset Size:
 
-    -Total Rows: 3,065
+  -Total Rows: 3,065
 
-    -Total Columns: 19
+  -Total Columns: 19
 
-  -Key Features:
+-Key Features:
 
-    -Sectors: Commercial, Industrial, Residential, Transportation, Electric Power
+  -Sectors: Commercial, Industrial, Residential, Transportation, Electric Power
 
-    -Energy Sources: Hydroelectric, Wind, Solar, Geothermal, Biomass, Biofuels, and others
+  -Energy Sources: Hydroelectric, Wind, Solar, Geothermal, Biomass, Biofuels, and others
 
-    -Target Variable: Total Renewable Energy Consumption (trillion BTUs)
+  -Target Variable: Total Renewable Energy Consumption (trillion BTUs)
 
 🔄 Methodology & Workflow:
 
-  -Data Preprocessing:
+-Data Preprocessing:
 
-    -Filtered data to Electric Power sector and Total Renewable Energy
+  -Filtered data to Electric Power sector and Total Renewable Energy
 
-    -Confirmed no missing values
+  -Confirmed no missing values
 
-    -Retained outliers to preserve effects of policy changes and extreme events
+  -Retained outliers to preserve effects of policy changes and extreme events
 
-    -Conducted Augmented Dickey-Fuller (ADF) test for stationarity
+  -Conducted Augmented Dickey-Fuller (ADF) test for stationarity
 
-    -Applied Box-Cox transformation (λ = −0.418) for ARIMA/SARIMA variance stabilization
+  -Applied Box-Cox transformation (λ = −0.418) for ARIMA/SARIMA variance stabilization
 
-  -Data Splitting:
+-Data Splitting:
 
-    -Single Train/Test Split
+  -Single Train/Test Split
 
-      Train: Jan 1973 – Dec 2012 (80%)
+  -Train: Jan 1973 – Dec 2012 (80%)
 
-      Test: Jan 2013 – Dec 2024 (20%)
+  -Test: Jan 2013 – Dec 2024 (20%)
 
-  -4-Fold Time Series Cross-Validation
+  -4-Fold Time Series Cross-Validation:
 
-      Expanding window with rolling test periods
+  -Expanding window with rolling test periods
 
-  -Models Implemented:
+-Models Implemented:
 
-      -Holt-Winters: Captures level, trend, and seasonality
+  -Holt-Winters: Captures level, trend, and seasonality
 
-      -ARIMA: Models trend via differencing but does not capture seasonality
+  -ARIMA: Models trend via differencing but does not capture seasonality
       
-      -SARIMA: Extends ARIMA with seasonal components (12-month seasonality)
-
-SARIMA: Extends ARIMA with seasonal components (12-month seasonality)
+  -SARIMA: Extends ARIMA with seasonal components (12-month seasonality)
