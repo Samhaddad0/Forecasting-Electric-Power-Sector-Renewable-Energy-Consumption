@@ -98,3 +98,12 @@ Forecasting Electric Power Sector Renewable Energy Consumption
   | ARIMA        | 26.32%    | 73.25     |
   | SARIMA       | **6.60%** | **18.92** |
 
+📊 Key Findings:
+
+  •	SARIMA projects a strong upward trajectory with clear seasonal peaks, closely following historical growth. 
+  
+  •	Holt-Winters forecasts a moderate rise with smoother seasonal cycles, suggesting a conservative expansion. 
+  
+  •	ARIMA inaccurately shows an almost flatline forecast, failing to reflect historical growth or seasonality, which emphasizes its limitations for this task. 
+
+
